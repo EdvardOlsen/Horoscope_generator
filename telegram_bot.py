@@ -14,3 +14,7 @@ def handle(message, i=0):
       bot.send_message(chat_id=message.chat.id, text=generateHoro(message.text))
     except ValueError:
       bot.send_message(chat_id=message.chat.id, text='error')
+    
+
+if __name__ == '__main__':
+    bot.polling()
