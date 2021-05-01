@@ -1,0 +1,11 @@
+python3 transformers/examples/run_lm_finetuning.py \
+    --output_dir=output \
+    --model_type=gpt2 \
+    --model_name_or_path=gpt2 \
+    --do_train \
+    --train_data_file=train.txt \
+    --do_eval \
+    --per_gpu_train_batch_size=2 \
+    --eval_data_file=valid.txt  \
+    --num_train_epochs=10 \
+    --save_steps=1000
