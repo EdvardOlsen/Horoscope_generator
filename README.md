@@ -1,8 +1,8 @@
 # Horoscope_generator
-This is a horoscope generating code
-This code was made by EdvardOlsen
-The generator is based on fine-tuning model GPT-2 from OpenAI (HuggingFace realization) library 
-The dataset was taken from [here](https://github.com/dsnam/markovscope/)
+This is a horoscope generating code \
+This code was made by EdvardOlsen  \
+The generator is based on fine-tuning model GPT-2 from OpenAI (HuggingFace realization) library \
+The dataset was taken from [here](https://github.com/dsnam/markovscope/) 
 
 
 ## Installation
@@ -11,7 +11,7 @@ To install clone this repo and run `chmod 777 setup.sh && ./setup.sh`
 
 ## Training
 
-To train the model run `chmod 777 train.sh && ./train.sh`
+To train the model run `chmod 777 train.sh && ./train.sh`  \
 Make sure to clone the transformers repo
 
 ## Inference
