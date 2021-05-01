@@ -1,4 +1,4 @@
-# Horoscope_generator
+# Horoscope generator
 This is a horoscope generating code \
 This code was made by EdvardOlsen  \
 The generator is based on fine-tuning model GPT-2 from OpenAI ([HuggingFace realization](https://github.com/huggingface/transformers/)) library  \
